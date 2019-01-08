@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MVP</string>
+    <string name="nav_header_subtitle">Demo for Model-View-Presenter</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_user">User</string>
+    <string name="string_friendship">FriendShip</string>
+    <string name="string_group">Group</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="string_search">Search</string>
+    <string name="string_send">Send</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="string_complete">Complete</string>
+    <string name="string_add_group">Add Group</string>
+    <string name="string_add_friend">Add Friend</string>
+    <string name="string_add_user">Add user</string>
+    <string name="string_commit">Commit</string>
+    <string name="string_input_nickname">Input Nickname</string>
+    <string name="string_input_user_identify">Input ID</string>
+    <string name="string_success">Success</string>
+    <string name="string_failure">Operation Failure</string>
+    <string name="str_model_label">Model</string>
+    <string name="string_demo_title">Demo</string>
+    <string name="string_modify">Modify</string>
+    <string name="string_del">Delete</string>
+    <string name="string_add">Add</string>
+    <string name="string_add_model">Add Field</string>
+    <string name="string_input_field_one">Input Field</string>
+</resources>

@@ -1,0 +1,55 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/major_background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_include_toolbar" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:text="@string/str_model_label"
+            android:textColor="@color/label_color"
+            android:textSize="17sp" />
+
+        <com.lqr.recyclerview.LQRRecyclerView
+            android:id="@+id/rvModel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:rv_divider_color="@color/line_color"
+            app:rv_divider_size="1px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/button_bg_selector"
+            android:text="@string/string_add"
+            android:textColor="@color/text_secondary_color"
+            android:textSize="18sp"
+            style="?android:attr/borderlessButtonStyle" />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

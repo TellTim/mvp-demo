@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:elevation="0dp">
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:id="@+id/afl_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/major_color">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <ImageView
+                android:id="@+id/iv_back_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="11dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:padding="6dp"
+                android:src="@drawable/ic_toolbar_back_24dp" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/all_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvToolbarTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/major_inverse_color"
+                    android:textSize="18sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvToolbarSubTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/major_inverse_color"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <!--加号菜单-->
+            <ImageButton
+                android:id="@+id/ibAddMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_toolbar_add_24dp"
+                android:visibility="gone" />
+
+            <!--搜索-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/llToolbarSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="6dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/shape_edit_text_bg"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/etSearchContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:background="@null"
+                    android:drawablePadding="6dp"
+                    android:drawableStart="@drawable/ic_search_24dp"
+                    android:hint="@string/string_search"
+                    android:inputType="none"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/text_secondary_color"
+                    android:textSize="14sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <!--发送按钮-->
+            <Button
+                android:id="@+id/btnToolbarSend"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_bg_selector"
+                android:text="@string/string_send"
+                android:textColor="@color/major_inverse_color"
+                android:visibility="gone"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <!--更多按钮-->
+            <ImageButton
+                android:id="@+id/ibToolbarMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_more_24dp"
+                android:visibility="gone" />
+
+            <!-- 取消 -->
+            <TextView
+                android:id="@+id/tv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="11dp"
+                android:padding="6dp"
+                android:text="@string/string_cancel"
+                android:textColor="@drawable/text_color_selector"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <!-- 完成 -->
+            <TextView
+                android:id="@+id/tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="11dp"
+                android:padding="6dp"
+                android:text="@string/string_complete"
+                android:textColor="@drawable/text_color_selector"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoFrameLayout>
+</android.support.design.widget.AppBarLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MVP示例</string>
+    <string name="navigation_drawer_close">gua导航栏</string>
+    <string name="nav_header_title">MVP</string>
+    <string name="nav_header_subtitle">Model-View-Presenter架构演示示例</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_user">用户</string>
+    <string name="string_friendship">好友关系</string>
+    <string name="string_group">群组</string>
+    <string name="navigation_drawer_open">打开导航栏</string>
+    <string name="string_search">搜索</string>
+    <string name="string_add_friend">添加好友</string>
+    <string name="string_add_user">添加用户</string>
+    <string name="string_add_group">添加群组</string>
+    <string name="string_commit">确定</string>
+    <string name="string_input_nickname">请输入昵称</string>
+    <string name="string_input_user_identify">请输入手机号</string>
+    <string name="string_send">发送</string>
+    <string name="string_cancel">取消</string>
+    <string name="string_complete">完成</string>
+    <string name="string_success">保存成功</string>
+    <string name="string_failure">操作失败</string>
+    <string name="str_model_label">Model的实例有:</string>
+    <string name="string_demo_title">MVP Simple Demo</string>
+    <string name="string_modify">修改</string>
+    <string name="string_del">删除</string>
+    <string name="string_add">添加</string>
+    <string name="string_add_model">添加实例</string>
+    <string name="string_input_field_one">请输入字段内容</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFD238</color>
+
+    <!-- 最强调的颜色-->
+    <color name="major_color">#FFD238</color>
+    <color name="major_inverse_color">#ffffff</color>
+    <!-- 次强调的颜色-->
+    <color name="secondary_color">#9ca9cb</color>
+    <!-- 再次级的颜色-->
+    <color name="third_color">#c0c9df</color>
+    <!-- 弱装饰的颜色-->
+    <color name="week_color">#f1f4fc</color>
+    <!--警告的颜色-->
+    <color name="colorWarn">#f15b6c</color>
+    <!-- 死亡的颜色-->
+    <color name="dead_color">#AAAAAA</color>
+    <color name="major_background_color">#FFFFFF</color>
+    <color name="colorFrame">#888888</color>
+
+    <!-- 按钮颜色 -->
+    <color name="button_normal_color">@color/third_color</color>
+    <color name="button_pressed_color">@color/major_color</color>
+    <color name="button_disable_color">@color/dead_color</color>
+
+    <!-- 文本颜色 -->
+    <color name="text_normal_color">@color/third_color</color>
+    <color name="text_pressed_color">@color/major_color</color>
+    <color name="text_disable_color">@color/dead_color</color>
+    <color name="text_primary_color">#222222</color>
+    <color name="text_secondary_color">#444444</color>
+    <color name="text_third_color">#666666</color>
+    <color name="label_color">@color/text_primary_color</color>
+    <color name="label_text_reverse_color">@color/text_third_color</color>
+
+    <color name="line_color">#E7E7E7</color>
+    <color name="popup_window_background_color">#edb91b</color>
+    <color name="waiting_bg_color">#000000</color>
+    <color name="waiting_text_color">@color/major_inverse_color</color>
+</resources>

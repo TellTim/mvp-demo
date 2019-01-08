@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="mvp_demo" />
+
+    <version value="2" />
+
+    <list>
+        <mapping class="com.hunter.mvp.demo.model.ModelBean" />
+    </list>
+</litepal>
